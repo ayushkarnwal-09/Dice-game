@@ -1,0 +1,27 @@
+.gamePlayDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.buttons_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.buttons_div button {
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  border: none;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.4s background ease-in;
+  &:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.3s background ease-in;
+  }
+}
